@@ -1,8 +1,0 @@
-additional:
-  - "main-template-prod-2"
-files:
-  - "!README.md"
-  - "!.github/template-sync.yml"
-  - "!.github/workflows/Template-Sync.yml"
-  - "!docs/"
-  - "!webiste/versioned_docs/"
