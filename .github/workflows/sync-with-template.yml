@@ -1,0 +1,13 @@
+name: Receive repository dispatch event
+
+on:
+    # Listen to a repository dispatch event by the name of `docs-repos-sync-with-template`
+    repository_dispatch:
+        types: [docs-repos-sync-with-template]
+
+jobs:
+    log:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Event received
+              run: echo "Event received"
