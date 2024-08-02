@@ -1,4 +1,5 @@
 README.md
+.github/workflows/sync-with-template.yml
 .github/template-sync.yml
 .github/workflows/Template-Sync.yml
 docs/
